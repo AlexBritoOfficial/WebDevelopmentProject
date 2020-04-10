@@ -1,0 +1,39 @@
+.logoBanner{
+    width:auto;
+    text-align: center;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.image{
+    background-color: rgba(212, 240, 248, 0.801);
+    display: flex;
+    justify-content: center;
+    
+}
+.container-fluid{
+    padding:0px;
+    
+}
+
+.centerImage{
+    position: relative;
+    top: 25%;
+        
+}
+.center-input{
+    position: relative;
+    top: 15%;
+}
+
+.input-size{
+    width:450px;
+}

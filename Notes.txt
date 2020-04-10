@@ -1,0 +1,17 @@
+db.createCollection( 'images',
+   {
+     path: String
+   }
+)
+
+db.createCollection( 'users',
+   {
+     "email": String,
+     "username": String,
+     "password": String
+   }
+)
+
+//Test Documents
+"youareawesome@grit.com", "username" : "gritter", "password" : "1234", "__v" : 0 }
+{ "_id" : ObjectId("5e8eb5fce7859341fe84469e"), "email" : "dalu@awesome.com", "username" : "daluIsAwesome", "password" : "1234"

@@ -1,0 +1,156 @@
+.cards{
+    position: relative;
+    padding:5px;
+    background-color: white;
+   
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 0px;
+}
+/* .cards .heading{
+    margin-bottom: 50px;
+    text-align: center;
+} */
+.gall-center{
+    
+    position: relative;
+
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* background-color: lightcoral; */
+    width:80vw;
+}
+.headingFormat{
+
+    text-align: center;
+   
+}
+.center{
+    position: relative;
+    /* text-align: center; */
+    left:50%;
+    transform: translateX(-50%);
+    
+    /* height:100vh; */
+}
+
+/* .cards .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.cards h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card{
+    text-align: center;
+}
+.cards .card{
+    transition: 0.5s easy;
+    
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.20);
+}
+.cards .card img{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.20);
+}
+.cards .card-body{
+    text-align: center;
+}
+.cards .card-body p{
+    font-size: 15px;
+}
+.cards a{
+    color: #212529; */
+/* } */
+.cards a:hover{
+    text-decoration: none;
+}  
+/* @media (min-width: 576px) { */
+.cards .transform-on-hover:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20) !important; 
+    opacity: 75%;
+}
+/* } */
+
+.grid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0px;
+    
+}
+.column{
+    flex:33%;
+    max-width:33%;
+    padding:0 0px;
+}
+.column img{
+    margin-top: 0px;
+    vertical-align: middle;
+    width:100%;
+}
+
+@media screen and (max-width:1000px){
+    .column{
+        flex:50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:800px){
+    .column{
+        flex:100%;
+        max-width: 100%;
+    }
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    /* transform: translateX(-50%); */
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-img{
+    margin: auto;
+    display: block;
+    top:0;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: oldlace;
+    font-size: 40px;
+    font-weight:bold;
+    transition: .3s;
+}
+
+.close:hover,
+.close:focus{
+    color:#bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:700px){
+    .modal-img{
+        width: 100%;
+    }
+}

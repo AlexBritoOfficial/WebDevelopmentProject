@@ -1,0 +1,37 @@
+{
+  "name": "theskydoesnotexist",
+  "version": "1.0.0",
+  "description": "Web Dev final project repo",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.2",
+    "handlebars": "^4.7.5",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "parsleyjs": "^2.9.2",
+    "router": "^1.3.5",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foreverFergie/theSkyDoesNotExist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foreverFergie/theSkyDoesNotExist/issues"
+  },
+  "homepage": "https://github.com/foreverFergie/theSkyDoesNotExist#readme"
+}
